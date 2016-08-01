@@ -1,0 +1,15 @@
+{
+	"name": "Organizer extension",
+	"version": "1.0",
+    "manifest_version": 2,
+
+	"name": "Простой перевод",
+
+	"permissions": ["http://translate.yandex.net/*"],
+
+	"browser_action": {
+		"default_title": "Открыть переводчик",
+		"default_icon": "icon_small.png",
+		"default_popup": "popup.html"
+	}
+}
