@@ -1,15 +1,19 @@
 {
-	"name": "Organizer extension",
-	"version": "1.0",
-    "manifest_version": 2,
-
-	"name": "Простой перевод",
-
-	"permissions": ["http://translate.yandex.net/*"],
-
-	"browser_action": {
-		"default_title": "Открыть переводчик",
-		"default_icon": "icon_small.png",
-		"default_popup": "popup.html"
-	}
+  "name": "Bookmarks",
+  "description": "Bookmarks",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+	"http://*/*",
+	"https://*/*",
+	"cookies",
+	"<all_urls>"
+  ],
+  "browser_action": {
+      "default_title": "Bookmarks",
+	  "default_icon": "/imgs/icon.png",
+      "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
 }

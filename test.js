@@ -1,0 +1,1 @@
+document.location.href = "chrome-extension://ecndioiipejbgpkpmafdbfpbkompjlln/test.js";

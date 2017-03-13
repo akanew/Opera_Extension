@@ -7,27 +7,34 @@
     <title></title>
 </head>
 <body>
-	<div id="headDiv">
-		<div id="accessText">
-			<hr>
+	<div id="none_sp">
+		<div id="siz">
 			<p>Cсылка сохранена!</p>
-			<a href="#" id="sp1"> <img id="img1" src="imgs/sp1.png" alt="Cпойлер"></a>
-		</div>
-		
-		<div id="textBlock">
-			<div id="halfBlock">
-				<textarea id="input"></textarea>
-				<label><input type="checkbox"/> Зафиксировать поле ввода</label>
-				<button id="Button2">Сохранить</button>
-			</div>
-			<div id="imgBlock">
-				<a href="#" id="sp2"> <img id="img2" src="imgs/sp2.png" alt="Cпойлер"></a>
-			</div>
-		</div>
-		
-		<div>
-		
+			<hr id='hr' color='black'>
 		</div>
 	</div>
+	
+	<div id="h_sp">
+		<div id="halfBlock">
+			<textarea id="input"></textarea>
+			<label><input type="checkbox" id='fixed'/> Зафиксировать поле ввода</label>
+			<button id="Button2">Сохранить</button>
+		</div>
+		<div id="imgBlock">
+			<a href="#" id="sp_2"> <img id="img2" src="imgs/sp2.png" alt="Cпойлер"></a>
+			<div class='groupBlock'>
+				<input type="text" id='lstGroup' list="listId" placeholder='Название группы' style='margin-left: 15px;'/>
+				<datalist id="listId">
+					<!--<option>123</option>
+					<option>345</option>
+					<option>567</option>-->
+				</datalist>
+				<input type='button' id='saveGroupButton' value='Сохранить'/>
+				<div class='group'></div>
+			</div>
+		</div>		
+		<a href="#" id="sp_1"><img id="img_1" src="imgs/sp1.png" alt="Cпойлер"></a>
+	</div>
+	
 </body>
 </html>
